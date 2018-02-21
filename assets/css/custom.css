@@ -1,0 +1,103 @@
+.first {
+  background-image: url("../images/Boat.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color : #f2f6f5;
+}
+
+.description {
+  background-color: #f3f3f3;
+
+}
+
+
+
+.xtext-muted {
+  color: #b5b5b5
+}
+
+.description .text {
+  text-align: justify;
+  width: 83%;
+  margin-left: 6%;
+  padding-top: 6%;
+  font-size: 158%;
+  color: #282828;
+}
+
+.description .text p {
+  margin-bottom: 5%;
+}
+
+
+.schedule {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  /*color: white;*/
+}
+
+.slick-dots {
+  bottom: 0px;
+  padding-bottom: 18px;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.slick-dots .slick-active {
+  background-image: url("../images/dot.png");
+  background-size: cover;
+}
+
+.slick-dots li button {
+    background: url("../images/dot2.png");
+    text-indent: -9999px;
+    overflow:hidden;
+    background-size: cover;
+    /* more CSS */
+}
+
+.schedule ul {
+  list-style: none;
+}
+
+.schedule ul li {
+  margin-bottom: 10px;
+}
+
+.schedule .btn {
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+  font-weight: bold;
+  background-color: #e6e823;
+  margin-left: 11%;
+  font-size: 188%;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.slide-image {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+.w-100 {
+  width: 100%;
+  height: 352px;
+}
+
+.description .btn {
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #676767;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  width: 101%;
+  font-size: 156%;
+  margin-bottom: 60%
+}
