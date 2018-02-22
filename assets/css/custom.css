@@ -1,61 +1,24 @@
 .first {
-  background-image: url("../images/Boat.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   color : #f2f6f5;
 }
 
-.description {
-  background-color: #f3f3f3;
-
+.boat {
+  left: -408px;
+  bottom: -35px;
 }
 
+.boat img {
+  width: 202%
 
-
-.xtext-muted {
-  color: #b5b5b5
 }
-
-.description .text {
-  text-align: justify;
-  width: 83%;
-  margin-left: 6%;
-  padding-top: 6%;
-  font-size: 158%;
-  color: #282828;
-}
-
-.description .text p {
-  margin-bottom: 5%;
-}
-
 
 .schedule {
-  margin-top: 30px;
-  margin-bottom: 40px;
-  /*color: white;*/
-}
-
-.slick-dots {
-  bottom: 0px;
-  padding-bottom: 18px;
-  padding-top: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-
-.slick-dots .slick-active {
-  background-image: url("../images/dot.png");
+  background-image: url("../images/Bg blue boat.jpg");
   background-size: cover;
-}
-
-.slick-dots li button {
-    background: url("../images/dot2.png");
-    text-indent: -9999px;
-    overflow:hidden;
-    background-size: cover;
-    /* more CSS */
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 59px;
+  /*color: white;*/
 }
 
 .schedule ul {
@@ -79,6 +42,31 @@
   margin-bottom: 80px;
 }
 
+.xtext-muted {
+  color: #b5b5b5
+}
+
+.slick-dots {
+  bottom: 0px;
+  padding-bottom: 18px;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.slick-dots .slick-active {
+  background-image: url("../images/dot.png");
+  background-size: cover;
+}
+
+.slick-dots li button {
+    background: url("../images/dot2.png");
+    text-indent: -9999px;
+    overflow:hidden;
+    background-size: cover;
+    /* more CSS */
+}
+
 .slide-image {
   padding-left: 0;
   padding-right: 0;
@@ -87,6 +75,23 @@
 .w-100 {
   width: 100%;
   height: 352px;
+}
+
+.description {
+  background-color: #f3f3f3;
+}
+
+.description .text {
+  text-align: justify;
+  width: 83%;
+  margin-left: 6%;
+  padding-top: 6%;
+  font-size: 158%;
+  color: #282828;
+}
+
+.description .text p {
+  margin-bottom: 5%;
 }
 
 .description .btn {
