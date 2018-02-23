@@ -3,13 +3,26 @@
 }
 
 .boat {
-  left: -408px;
+  left: -45%;
   bottom: -35px;
 }
 
 .boat img {
   width: 202%
+}
 
+@media (max-width : 425px) {
+  .boat {
+    left: -18px;
+    bottom: 21px;
+  }
+
+  .boat img {
+    width: 100%
+  }
+  .description .text {
+    width: 92%;
+  }
 }
 
 .schedule {
